@@ -1,0 +1,33 @@
+{
+  "name": "svelte-ts-ipfs-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhsu/svelte-ts-ipfs-deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhsu/svelte-ts-ipfs-deploy/issues"
+  },
+  "homepage": "https://github.com/jhsu/svelte-ts-ipfs-deploy#readme",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.5",
+    "@tsconfig/svelte": "^3.0.0",
+    "svelte": "^3.50.1",
+    "svelte-check": "^2.9.0",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
